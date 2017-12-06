@@ -1,0 +1,28 @@
+set editor="vim"
+
+set ssl_starttls=yes
+set ssl_force_tls=yes
+
+# credentials
+set from = "emaildoime@ime.usp.br"
+set realname = "meu nome"
+
+# my data
+set imap_user = "emaildoime@ime.usp.br"
+set smtp_url = "smtp://smtp.ime.usp.br:587/"
+
+# mailboxes
+set folder = "imaps://imap.ime.usp.br"
+set spoolfile = "+INBOX"
+
+# folders
+set header_cache = "~/.mutt/accounts/usp/cache/headers"
+set message_cachedir = "~/.mutt/accounts/usp/cache/bodies"
+set certificate_file = "~/.mutt/accounts/usp/certificates"
+
+# extras
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"

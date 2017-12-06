@@ -1,0 +1,9 @@
+set spoolfile = "+Personal/INBOX"
+
+folder-hook Personal/* source ~/.mutt/accounts/personal
+folder-hook usp/*     source ~/.mutt/accounts/usp
+
+source ~/.mutt/accounts/usp
+
+macro index <f2> '<sync-mailbox><enter-command>source ~/.mutt/accounts/personal<enter><change-folder>!<enter>'
+macro index <f3> '<sync-mailbox><enter-command>source ~/.mutt/accounts/usp<enter><change-folder>!<enter>'

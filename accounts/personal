@@ -1,0 +1,28 @@
+set editor="vim"
+
+set ssl_starttls=yes
+set ssl_force_tls=yes
+
+# credentials
+set from = "meugmail@gmail.com"
+set realname = "Meunome"
+
+# my data
+set imap_user = "meugmail@gmail.com"
+set smtp_url = "smtp://meugmail@smtp.gmail.com:587/"
+
+# mailboxes
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+
+# folders
+set header_cache = "~/.mutt/accounts/personal/cache/headers"
+set message_cachedir = "~/.mutt/accounts/personal/cache/bodies"
+set certificate_file = "~/.mutt/accounts/personal/certificates"
+
+# extras
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
